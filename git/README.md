@@ -90,19 +90,18 @@
 
     3. **Adicionar arquivo ao Git** 
 
-    * Comando para criar um snapshot do arquivo. **git Commit**
+        *Comando para criar um snapshot do arquivo. **git Commit***
+        ~~~        
+        git commit nomedoarquivo.extensao -m "mensagem do commit"
+        ~~~
 
-      ~~~
-      git commit nomedoarquivo.extensao -m "mensagem do commit"
-      ~~~
+        >obs: o -m é para dizer para o git que tu vais passar uma mensagem no commit
+        >>git commit Readme.md -am "mnensagem do commit" 
 
-      >obs: o -m é para dizer para o git que tu vais passar uma mensagem no commit
-      >>git commit Readme.md -am "mnensagem do commit" 
-
-      obs: adicionar todos os arquivos modificados
-      ~~~
-      git commit . -am "esse comando já adiciona no stage e já faz o commit recursivamente"
-      ~~~
+        obs: adicionar todos os arquivos modificados
+        ~~~
+        git commit . -am "esse comando já adiciona no stage e já faz o commit recursivamente"
+        ~~~
 
     4. **Visualizar commits feitos** 
 
@@ -117,27 +116,28 @@
         git shortlog 
         ~~~
 
-        4.2 Forma gráfica
+        4.2 **Forma gráfica**
         
         ~~~
         git log --author="nome do author"
         ~~~
     
-        4.3 Mostrar commit por hash do commit
+        4.3 **Mostrar commit por hash do commit**
         
         ~~~
         git show **o id da branch**      
         ~~~
         >*o **id** do branch pode conseguir com git log*
         
-        4.4 Mostrar diferenças entre dois commit
+        
+        4.4 **Mostrar diferenças entre dois commit**
         
         ~~~
         git diff     
         ~~~
   
 	  5. **Remover um arquivo do Staged** 
-    
+
           ~~~
           git reset HEAD Readme.md
           ~~~
