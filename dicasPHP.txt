@@ -1,0 +1,2 @@
+listar php instalados no ubunto e escolher a versão a usar
+sudo update-alternatives --config php
