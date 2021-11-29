@@ -1,2 +1,7 @@
 ver amanha dia 29 de novembro 2021- PULL REQUEST
 https://www.youtube.com/watch?v=K_AXmuai6Nk&list=PLV7VqBqvsd_1h7zmEpE-xwgOPqp2IBGCV&index=15
+
+Desabilitar a paginação no git
+git config --global core.pager cat
+git config --global man.viewer catman
+git config --global man.catman.cmd 'man -P "col -b"'
