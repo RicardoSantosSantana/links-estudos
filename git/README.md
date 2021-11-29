@@ -71,6 +71,19 @@
 
     >**:eyes:**  *Existem muitas outras configurações no git, entretanto essas foram as primeiras que trabalhei.*
 
+6. **Token no cache do git**
+    >
+    **Adicionar**
+    >
+    ~~~
+    git config --global credential.helper cache
+    ~~~
+    __Remover__
+    ~~~    
+    
+    git config --global --unset credential.helper
+    ~~~
+
 ### 3. :rocket: Básicos ###
     
     
