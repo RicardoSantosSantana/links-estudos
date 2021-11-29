@@ -69,7 +69,7 @@
     git config --list
     ~~~
 
->**:eyes:**  *Existem muitas outras configurações no git, entretanto essas foram as primeiras que trabalhei.*
+    >**:eyes:**  *Existem muitas outras configurações no git, entretanto essas foram as primeiras que trabalhei.*
 
 ### 3. :rocket: Básicos ###
     
