@@ -246,13 +246,8 @@
       ~~~
       git tag -a 1.0.0 -m "Primeira Versao"
       ~~~
-
-      
-
-<hr> 
+ 
 
 <a href="https://github.com/RicardoSantosSantana">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=RicardoSantosSantana&theme=dracula&show_icons=true" />
 </a>
-
-![Gmail Badge](https://img.shields.io/badge/-rssantan@gmail.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rssantan@gmail.com)
