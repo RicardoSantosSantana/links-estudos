@@ -246,7 +246,12 @@
       ~~~
       git tag -a 1.0.0 -m "Primeira Versao"
       ~~~
- 
+      
+      **Submeter para o remoto**
+      
+      ~~~
+      git push origin --tags
+      ~~~
 
 <a href="https://github.com/RicardoSantosSantana">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=RicardoSantosSantana&theme=dracula&show_icons=true" />
