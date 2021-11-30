@@ -1,7 +1,7 @@
 # :cloud: AWS Certified Cloud Practitioner (__CLF-C01__) Exam Guide
 
  * * * 
-# :link: links úteis
+##:link: links úteis ##
 * [Preparação para o exame de certificação da AWS](https://aws.amazon.com/pt/certification/certification-prep/).
 
 * [Perguntas Frequentes sobre certificação da AWS](https://aws.amazon.com/pt/certification/faqs/).
