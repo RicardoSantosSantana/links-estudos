@@ -1,2 +1,6 @@
 listar php instalados no ubunto e escolher a versão a usar
 sudo update-alternatives --config php
+
+LISTAR MEU AMBIENTE GRAFICO, -USAR NO TERMINAL DO LINUX
+echo $DESKTOP_SESSION
+echo $XDG_CURRENT_DESKTOP
