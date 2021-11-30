@@ -1,4 +1,4 @@
-#:question: TOP 10 Perguntas Frequentes Certificação AWS#
+# :question: TOP 10 Perguntas Frequentes Certificação AWS
 
 __[NOVO] Quando o exame AWS Certified Cloud Practitioner estará disponível no idioma Português?__
 

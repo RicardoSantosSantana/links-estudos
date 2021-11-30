@@ -1,4 +1,4 @@
-##TOP 10 Perguntas Frequentes Planos de Suporte ##
+# TOP 10 Perguntas Frequentes Planos de Suporte
 
 __1: Quais são os planos de suporte disponíveis na AWS?__
 
