@@ -1,0 +1,111 @@
+[
+    {
+    "pergunta": "Por que a AWS é mais econômica do que os datacenters tradicionais para aplicações com diferentes workloads de computação?",
+    "opcoes":[
+        {"A) Os custos do Amazon EC2 são cobrados mensalmente.":false},
+        {"B) Os usuários mantêm acesso administrativo total às instâncias do Amazon EC2.":false},
+        {"C) As instâncias do Amazon EC2 podem ser executadas sob demanda quando necessário.":true},
+        {"D) Os usuários podem executar instâncias suficientes permanentemente para lidar com picos de workload.":false}
+    ],
+    "resposta": "C – A capacidade de executar instâncias sob demanda quando necessário permite que os usuários executem e encerrem instâncias em resposta a uma workload variável. Essa é uma prática mais econômica do que comprar servidores on-premises suficientes para lidar com o pico de carga.",
+    },
+
+    {
+        "pergunta": "Qual serviço da AWS simplificaria a migração de um banco de dados para a AWS?",
+        "opcoes":[
+            {"A) AWS Storage Gateway":false},
+            {"B) AWS Database Migration Service (AWS DMS)":true},
+            {"C) Amazon EC2":false},
+            {"D) Amazon AppStream 2.0":false}
+        ],
+        "resposta": "B – O AWS DMS ajuda os usuários a migrar bancos de dados para a AWS de forma rápida e segura. O banco de dados de origem permanece totalmente operacional durante a migração, minimizando períodos de inatividade para aplicações que dependem dele. O AWS DMS pode migrar os dados de e para os bancos de dados comerciais e de código aberto mais usados"
+    },
+
+    {
+        "pergunta": "Qual oferta da AWS permite que os usuários encontrem, comprem e comecem imediatamente a usar soluções de software no ambiente da AWS?",
+        "opcoes":[
+            {"A) AWS Config":false},
+            {"B) AWS OpsWorks":false},
+            {"C) SDK da AWS":false},
+            {"D) AWS Marketplace":true}
+        ],
+        "resposta": "D – O AWS Marketplace é um catálogo digital com milhares de ofertas de software de fornecedores independentes. Ele facilita a localização, o teste, a compra e a implantação de software executado na AWS."
+    },
+    
+    {
+        "pergunta": "Qual serviço de rede da AWS permite que uma empresa crie uma rede virtual na AWS?",
+        "opcoes":[
+            {"A) AWS Config":false},
+            {"B) Amazon Route 53":false},
+            {"C) AWS Direct Connect":false},
+            {"D) Amazon Virtual Private Cloud (Amazon VPC)":true}
+        ],
+        "resposta": "D – A Amazon VPC permite que os usuários provisionem uma seção logicamente isolada da Nuvem AWS, onde é possível executar recursos da AWS em uma rede virtual que eles mesmos definem." 
+    },
+    {
+        "pergunta": "Qual das seguintes ações é uma responsabilidade da AWS sob o modelo de responsabilidade compartilhada da AWS?",
+        "opcoes":[
+            {"A) Configuração de aplicações de terceiros":false},
+            {"B) Manutenção de hardware físico":true},
+            {"C) Proteção do acesso e dos dados da aplicação":false},
+            {"D) Gerenciamento de sistemas operacionais convidados":false}
+        ],
+        "resposta": "B – A manutenção de hardware físico é uma responsabilidade da AWS sob o modelo de responsabilidade compartilhada da AWS." 
+    }
+    ,
+    {
+        "pergunta": "Qual componente da infraestrutura global da AWS o Amazon CloudFront usa para garantir a entrega de baixa latência?",
+        "opcoes":[
+            {"A) Regiões da AWS":false},
+            {"B) Locais da borda":true},
+            {"C) Zonas de disponibilidade ":false},
+            {"D) Virtual Private Cloud (VPC)":false}
+        ],
+        "resposta": "B – Para fornecer conteúdo a usuários com menor latência, o Amazon CloudFront usa uma rede global de pontos de presença (locais de borda e caches de borda regionais) em todo o mundo. " 
+    }
+    ,
+    {
+        "pergunta": "Como um administrador de sistema incluiria uma camada adicional de segurança de login ao Console de Gerenciamento da AWS de um usuário?",
+        "opcoes":[
+            {"A) Com o Amazon Cloud Directory":false},
+            {"B) Com a auditoria de funções do AWS Identity and Access Management (IAM)":false},
+            {"C) Com a habilitação da autenticação multifator":true},
+            {"D) Com a habilitação do AWS CloudTrail":false}
+        ],
+        "resposta": "C – A autenticação multifator (MFA) é uma prática recomendada simples que adiciona uma camada extra de proteção ao nome de usuário e à senha. Com a MFA habilitada, quando o usuário faz login em um Console de Gerenciamento da AWS, serão solicitados o nome do usuário e a senha (o primeiro fator, o que ele sabe), bem como um código de autenticação do dispositivo MFA (o segundo fator, o que ele tem). Em conjunto, esses vários fatores fornecem maior segurança para as configurações e os recursos da conta da AWS." 
+    }
+    ,
+    {
+        "pergunta": "Qual serviço pode identificar o usuário que fez a chamada de API quando uma instância do Amazon EC2 é encerrada?",
+        "opcoes":[
+            {"A) AWS Trusted Advisor":false},
+            {"B) AWS CloudTrail":true},
+            {"C) AWS X-Ray":false},
+            {"D) AWS Identity and Access Management (AWS IAM)":false}
+        ],
+         "resposta": "B – O AWS CloudTrail ajuda os usuários a habilitar governança, conformidade e auditoria operacional e de risco de suas contas da AWS. As ações realizadas por um usuário, uma função ou um serviço da AWS são registradas como eventos no CloudTrail. Os eventos incluem ações realizadas no Console de Gerenciamento da AWS, na Interface da Linha de Comando (CLI) da AWS e nos SDKs e nas APIs da AWS." 
+    }
+    ,
+    {
+        "pergunta": "Qual serviço seria usado para enviar alertas com base nos alarmes do Amazon CloudWatch?",
+        "opcoes":[
+            {"A) Amazon Simple Notification Service (Amazon SNS)":true},
+            {"B) AWS CloudTrail":false},
+            {"C) AWS Trusted Advisor":false},
+            {"D) Amazon Route 53":false}
+        ],
+        "resposta": "A – O Amazon SNS e o Amazon CloudWatch são integrados para que os usuários possam coletar, visualizar e analisar métricas para cada SNS ativo. Depois que os usuários configuram o CloudWatch para o Amazon SNS, eles podem obter um insight melhor sobre a performance dos tópicos, notificações por push e entregas por SMS do Amazon SNS."
+    }
+    ,
+    {
+        "pergunta": "Onde um usuário pode encontrar informações sobre ações proibidas na infraestrutura da AWS?",
+        "opcoes":[
+            {"A) AWS Trusted Advisor":false},
+            {"B) AWS Identity and Access Management (IAM)":false},
+            {"C) Console de Faturamento da AWS":false},
+            {"D) Política de uso aceitável da AWS":true}
+        ],
+        "resposta": "D – A política de uso aceitável da AWS fornece informações sobre ações proibidas na infraestrutura da AWS. " 
+    }
+ ]
+
